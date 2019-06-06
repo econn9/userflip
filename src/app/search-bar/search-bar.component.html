@@ -1,0 +1,14 @@
+<div class="search-bar--container">
+
+    <ng-select [items]="apps" bindLabel="name" placeholder="Select Platform" [(ngModel)]="selectedApp"></ng-select>
+
+    
+    <input (keyup)="searchString$.next($event.target.value)" class="search-bar--input" type="text">
+
+</div>
+
+
+<ul>
+    <div *ngFor="let result of results">{{result.username}}</div>
+
+</ul>

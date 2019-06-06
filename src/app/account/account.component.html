@@ -1,0 +1,16 @@
+<section *ngIf="userLoggedIn" class="jumbotron">
+  <h2><img src="{{profileJson.picture}}" alt="Jumbotron image"/></h2>
+  <div>{{profileJson.name}}</div>
+  <div>Username: {{profileJson.email}}</div>
+  <div>Last Login: {{lastLogin}}</div>
+  <p></p>
+  <div class="btn btn-success btn-lg" routerLink="/">Back to Homepage</div>
+</section>
+
+<section *ngIf="!userLoggedIn" class="jumbotron">
+
+You should like, sign up. 
+
+<div class="btn btn-success btn-lg" routerLink="/">Back to Homepage</div>
+
+</section>

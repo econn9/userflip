@@ -1,0 +1,8 @@
+.search-bar--container {
+    display: flex;
+    color: white;
+}
+
+.search-bar--input {
+    padding: 30px;
+}

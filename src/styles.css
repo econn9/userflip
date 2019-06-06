@@ -1,0 +1,17 @@
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+.jumbotron {
+  background-color: #002259;
+  color:#fff;
+}
+
+.jumbotron h2 {
+  background-color: transparent;
+}
+
+.jumbotron img {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+
